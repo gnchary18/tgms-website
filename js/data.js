@@ -4,13 +4,13 @@
    ========================================================== */
 window.SITE = {
   name: "TGMS Dammannapet",
-  tagline: "Telangana Model School",
+  tagline: "Telangana Model School & Junior College",
   motto: "Learning with discipline, curiosity and care",
 
   // ---- Contact details (REPLACE with the real ones) ----
-  address: "TGMS, Dammannapet, Telangana – add full address and PIN code",
+  address: "PMSHRI TELANGANA MODEL SCHOOL & JUNIOR COLLEGE , Dammannapet, GambhiraoPet, Rajanna Siricilla District, Telangana ",
   phone: "+91 9885130905",
-  email: "your-school-email@example.com",
+  email: "tgms.dammannapet.knr@gmail.com",
   officeHours: "Mon – Sat, 9:30 AM – 4:30 PM",
   mapQuery: "Dammannapet, Telangana",
 
@@ -21,6 +21,7 @@ window.SITE = {
     ["academics.html", "Academics"],
     ["admissions.html", "Admissions"],
     ["facilities.html", "Facilities"],
+   ["Staff.html", "Staff"],
     ["gallery.html", "Gallery"],
     ["notices.html", "Notices"],
     ["contact.html", "Contact"]
@@ -39,13 +40,13 @@ window.SITE = {
   // ---- Gallery: put photos in assets/images/ and list them here ----
   // If a file is missing the tile shows a coloured placeholder instead.
   gallery: [
-    { src: "assets/images/campus-1.jpg", caption: "School campus" },
-    { src: "assets/images/classroom-1.jpg", caption: "Classroom learning" },
-    { src: "assets/images/lab-1.jpg", caption: "Science laboratory" },
-    { src: "assets/images/sports-1.jpg", caption: "Sports day" },
-    { src: "assets/images/assembly-1.jpg", caption: "Morning assembly" },
-    { src: "assets/images/library-1.jpg", caption: "Library" },
-    { src: "assets/images/cultural-1.jpg", caption: "Cultural programme" },
-    { src: "assets/images/computer-1.jpg", caption: "Computer lab" }
+    { src: "asset/images/campus-1.jpg", caption: "School campus" },
+    { src: "asset/images/classroom-1.jpg", caption: "Classroom learning" },
+    { src: "asset/images/lab-1.jpg", caption: "Science laboratory" },
+    { src: "asset/images/sports-1.jpg", caption: "Sports day" },
+    { src: "asset/images/assembly-1.jpg", caption: "Morning assembly" },
+    { src: "asset/images/library-1.jpg", caption: "Library" },
+    { src: "asset/images/cultural-1.jpg", caption: "Cultural programme" },
+    { src: "asset/images/computer-1.jpg", caption: "Computer lab" }
   ]
 };
