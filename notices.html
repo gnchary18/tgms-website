@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notices – TGMS Dammannapet</title>
+  <meta name="description" content="Notices, circulars, exam and admission announcements from TGMS Dammannapet.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="crumbs"><a href="index.html">Home</a> / Notices</div>
+      <h1>Notices &amp; Announcements</h1>
+      <p>Stay up to date with school news</p>
+    </div>
+  </section>
+
+  <main id="main">
+    <section class="section">
+      <div class="container" style="max-width:860px">
+        <div class="filter-bar" role="group" aria-label="Filter notices">
+          <button class="chip on" data-filter="all">All</button>
+          <button class="chip" data-filter="admission">Admission</button>
+          <button class="chip" data-filter="exam">Exams</button>
+          <button class="chip" data-filter="event">Events</button>
+          <button class="chip" data-filter="general">General</button>
+        </div>
+        <div class="card">
+          <ul class="notice-list" id="all-notices"></ul>
+        </div>
+        <p class="form-note" style="margin-top:14px">To add a notice, edit <code>js/data.js</code> and add a new line at the top of the <code>notices</code> list. PDFs can be placed in a <code>files/</code> folder and linked from the notice text.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

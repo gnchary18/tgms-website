@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – TGMS Dammannapet</title>
+  <meta name="description" content="Contact TGMS Dammannapet: address, phone, email, office hours and map.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+      <h1>Contact Us</h1>
+      <p>We would be happy to hear from you</p>
+    </div>
+  </section>
+
+  <main id="main">
+    <section class="section">
+      <div class="container grid g2" style="align-items:start">
+        <div class="reveal">
+          <h2>Get in touch</h2>
+          <ul class="info-list">
+            <li><span>📍</span><span data-site="address"></span></li>
+            <li><span>📞</span><span data-site="phone"></span></li>
+            <li><span>✉️</span><span data-site="email"></span></li>
+            <li><span>🕘</span><span data-site="officeHours"></span></li>
+          </ul>
+          <iframe id="map" class="map" title="School location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p class="form-note">Update <code>mapQuery</code> in <code>js/data.js</code> with the exact school address for a precise pin.</p>
+        </div>
+
+        <form class="card reveal" data-mailto>
+          <h2>Send a message</h2>
+          <label for="n">Your name</label><input id="n" name="Name" required>
+          <div class="row">
+            <div><label for="e">Email</label><input id="e" name="Email" type="email" required></div>
+            <div><label for="p">Phone</label><input id="p" name="Phone" type="tel"></div>
+          </div>
+          <label for="s">Subject</label><input id="s" name="subject" value="Message from website" required>
+          <label for="m">Message</label><textarea id="m" name="Message" rows="5" required></textarea>
+          <button class="btn btn-navy" type="submit">Send message</button>
+          <p class="form-note" style="margin-top:10px">Pressing send opens your email app with this message ready to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

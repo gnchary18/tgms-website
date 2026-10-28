@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admissions – TGMS Dammannapet</title>
+  <meta name="description" content="Admission process, eligibility and required documents for TGMS Dammannapet.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="crumbs"><a href="index.html">Home</a> / Admissions</div>
+      <h1>Admissions</h1>
+      <p>How to join TGMS Dammannapet</p>
+    </div>
+  </section>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="card reveal" style="border-left:6px solid var(--amber);margin-bottom:34px">
+          <strong>Important:</strong> Dates, eligibility and the application link change every year. Always check the latest notice on the <a href="notices.html">Notices</a> page and the official Telangana education portal before applying.
+        </div>
+
+        <div class="grid g2" style="align-items:start">
+          <div class="reveal">
+            <span class="eyebrow">Process</span>
+            <h2>Steps to apply</h2>
+            <ol class="steps">
+              <li><strong>Read the notification.</strong> Check the class, age limit, seats and last date.</li>
+              <li><strong>Fill the application.</strong> Apply through the official online link or the school office, as announced.</li>
+              <li><strong>Entrance / selection.</strong> If an entrance test or merit list is announced, appear on the given date.</li>
+              <li><strong>Certificate verification.</strong> Bring the original documents and one set of copies.</li>
+              <li><strong>Confirm admission.</strong> Complete the formalities within the stated time.</li>
+            </ol>
+          </div>
+          <div class="reveal">
+            <span class="eyebrow">Checklist</span>
+            <h2>Documents usually needed</h2>
+            <ul class="checklist">
+              <li>Birth certificate / date of birth proof</li>
+              <li>Previous class study / transfer certificate</li>
+              <li>Caste and income certificates, if applicable</li>
+              <li>Aadhaar card of the student (and parent, if asked)</li>
+              <li>Recent passport-size photographs</li>
+              <li>Any other document listed in the current notification</li>
+            </ul>
+            <div class="card" style="margin-top:20px">
+              <h3>Need help?</h3>
+              <p>Visit the school office on working days or call <strong data-site="phone"></strong>.</p>
+              <a class="btn btn-navy" href="contact.html">Contact the office</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container" style="max-width:760px">
+        <div class="section-head reveal"><span class="eyebrow">Enquiry</span><h2>Send an admission enquiry</h2><p>This opens your email app with the details filled in.</p></div>
+        <form class="card reveal" data-mailto>
+          <input type="hidden" name="subject" value="Admission enquiry">
+          <div class="row">
+            <div><label for="sname">Student name</label><input id="sname" name="Student name" required></div>
+            <div><label for="pname">Parent / guardian name</label><input id="pname" name="Parent name" required></div>
+          </div>
+          <div class="row">
+            <div><label for="cls">Class applying for</label>
+              <select id="cls" name="Class"><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option></select></div>
+            <div><label for="ph">Phone</label><input id="ph" name="Phone" type="tel" required></div>
+          </div>
+          <label for="msg">Message (optional)</label>
+          <textarea id="msg" name="Message" rows="4"></textarea>
+          <button class="btn btn-navy" type="submit">Send enquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>
