@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="TGMS Dammannapet logo">
+  <circle cx="32" cy="32" r="30" fill="#0b3a6e"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#f4a300" stroke-width="2"/>
+  <path d="M14 26 32 17l18 9-18 9-18-9Z" fill="#f4a300"/>
+  <path d="M22 32v8c0 3 5 6 10 6s10-3 10-6v-8l-10 5-10-5Z" fill="#fff"/>
+  <path d="M50 27v10" stroke="#f4a300" stroke-width="2" stroke-linecap="round"/>
+</svg>
