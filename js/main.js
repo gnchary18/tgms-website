@@ -24,7 +24,7 @@
       "<span>🕘 " + esc(S.officeHours) + "</span></div></div>" +
       '<header class="site-header"><div class="container">' +
       '<a class="brand" href="index.html" aria-label="' + esc(S.name) + ' home">' +
-      '<img src="assets/images/logo.svg" alt="" width="52" height="52">' +
+      '<img src="asset/images/logo.svg" alt="" width="52" height="52">' +
       "<span><strong>" + esc(S.name) + "</strong><small>" + esc(S.tagline) + "</small></span></a>" +
       '<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">☰</button>' +
       '<nav class="nav" id="nav" aria-label="Main">' + links + "</nav></div></header>";
