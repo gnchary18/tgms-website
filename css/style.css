@@ -261,3 +261,37 @@ input:focus, textarea:focus, select:focus { outline: 3px solid rgba(21,101,192,.
 @media print {
   .topbar, .site-header, .ticker, .to-top, .site-footer { display: none; }
 }
+/* Live clock in website header */
+.header-clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 14px;
+    color: #ffffff;
+    background: #064e3b;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 8px auto;
+}
+
+#live-clock {
+    font-variant-numeric: tabular-nums;
+}
+
+#live-date {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+    .header-clock {
+        font-size: 13px;
+        gap: 5px;
+    }
+}
