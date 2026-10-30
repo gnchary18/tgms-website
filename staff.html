@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Employee details directory">
+  <title>Employees Details</title>
+  <link rel="stylesheet" href="styles1.css">
+  <script src="employees.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Employee directory home">
+        <span class="brand-mark">ED</span>
+        <span>Employee Directory</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-home active" href="index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">
+            Employee Details <span class="chevron" aria-hidden="true">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="regular.html">Regular Employees</a>
+            <a href="outsourcing.html">Outsourcing Employees</a>
+            <a href="hourly.html">Hourly Based Employees</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <section class="welcome-panel">
+      <p class="eyebrow">EMPLOYEE DIRECTORY</p>
+      <h1>Employees Details</h1>
+      <p class="welcome-copy">Find employee information in one simple place. Choose an employee category below to view their details.</p>
+      <div class="category-grid">
+        <a class="category-card" href="regular.html">
+          <span class="category-icon">01</span>
+          <span class="category-title">Regular Employees</span>
+          <span class="category-description">View details of regular employees</span>
+          <span class="category-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="category-card" href="outsourcing.html">
+          <span class="category-icon">02</span>
+          <span class="category-title">Outsourcing Employees</span>
+          <span class="category-description">View details of outsourcing employees</span>
+          <span class="category-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="category-card" href="hourly.html">
+          <span class="category-icon">03</span>
+          <span class="category-title">Hourly Based Employees</span>
+          <span class="category-description">View details of hourly based employees</span>
+          <span class="category-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">Employee Directory <span>•</span> Employee information portal</footer>
+</body>
+</html>
