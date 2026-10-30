@@ -20,7 +20,10 @@
     }).join("");
     host.innerHTML =
       '<div class="topbar"><div class="container">' +
-      "<span>📞 " + esc(S.phone) + " &nbsp;|&nbsp; ✉️ " + esc(S.email) + "</span>" +
+      "<span>📞 <a href="tel:+91' + esc(S.phone) +
+'" style="color:inherit;text-decoration:none;">' +
+esc(S.phone) +
+'</a> &nbsp;|&nbsp; ✉️ ' + esc(S.email) + '</span>" +
       "<span>🕘 " + esc(S.officeHours) + "</span></div></div>" +
       '<header class="site-header"><div class="container">' +
       '<a class="brand" href="index.html" aria-label="' + esc(S.name) + ' home">' +
