@@ -1,14 +1,6 @@
-/*
-  EDIT EMPLOYEE INFORMATION HERE.
-
-  Add each employee inside the correct array.
-  photo: use a relative image path, for example "images/employee-01.jpg".
-  Put your photo files inside an "images" folder next to these HTML files.
-  If photo is left empty, a neat initials placeholder is shown.
-*/
 const employeeData = {
   regular: [
-    { id: "REG001", name: "Mrs. A. Srilatha", designation: "Principal (FAC), PGT (Commerce)", photo: "images/alana.jpg", initials: "E1" },
+    { id: "REG001", name: "Mrs. A. Srilatha", designation: "Principal ", photo: "images/alana.jpg", initials: "E1" },
     { id: "REG002", name: "Mrs. S.Sumalatha", designation: "PGT in Chemsitry ", photo: "images/aditi.jpg", initials: "E2" },
     { id: "REG003", name: "Mr. Babu John", designation: "PGT in Zoology", photo: "images/alana.jpg", initials: "E1" },
     { id: "REG004", name: "Mr. Srinivas", designation: "PGT in Civics" ", photo: "images/aditi.jpg", initials: "E2" },
