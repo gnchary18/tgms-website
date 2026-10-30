@@ -8,10 +8,14 @@
 */
 const employeeData = {
   regular: [
-    { id: "REG001", name: "Mrs. Alana", designation: "Faculty", photo: "images/alana.jpg", initials: "E1" },
-    { id: "REG002", name: "Aditi", designation: "Mini ", photo: "images/aditi.jpg", initials: "E2" },
-    { id: "REG001", name: "Mrs. Alana", designation: "Faculty", photo: "images/alana.jpg", initials: "E1" },
-    { id: "REG002", name: "Aditi", designation: "Mini ", photo: "images/aditi.jpg", initials: "E2" }
+    { id: "REG001", name: "Mrs. A. Srilatha", designation: "Principal (FAC), PGT (Commerce)", photo: "asset/images/alana.jpg", initials: "E1" },
+    { id: "REG002", name: "Mrs. S.Sumalatha", designation: "PGT in Chemsitry ", photo: "images/aditi.jpg", initials: "E2" },
+    { id: "REG003", name: "Mr. Babu John", designation: "PGT in Zoology", photo: "images/alana.jpg", initials: "E1" },
+    { id: "REG004", name: "Mr. Srinivas", designation: "PGT in Civics" ", photo: "images/aditi.jpg", initials: "E2" },
+    { id: "REG005", name: "Mrs.Anjum", designation: "PGT in Botony", photo: "images/alana.jpg", initials: "E1" },
+    { id: "REG006", name: "Mr. Pradeep", designation: "PGT in Physics" ", photo: "images/aditi.jpg", initials: "E2" }
+
+    
   ],
   outsourcing: [
     { id: "OUT001", name: "Mrs.Sarika", designation: "Computer Operator", photo: "images/sarika.jpg", initials: "E1" },
