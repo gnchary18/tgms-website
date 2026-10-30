@@ -8,10 +8,10 @@
 */
 const employeeData = {
   regular: [
-    { id: "REG001", name: "A.Srilatha", designation: "Faculty", photo: "images/alana.jpg", initials: "E1" },
-    { id: "REG002", name: "Aditi", designation: "Mini ", photo: "images/aditi.jpg", initials: "E2" },
-    { id: "REG001", name: "Mrs. Alana", designation: "Faculty", photo: "images/alana.jpg", initials: "E1" },
-    { id: "REG002", name: "Aditi", designation: "Mini ", photo: "images/aditi.jpg", initials: "E2" }
+    { id: "REG001", name: "A.Srilatha", designation: "Principal", photo: "images/alana.jpg", initials: "E1" },
+    { id: "REG002", name: "S.Sumalatha", designation: "PGT in Chemistry ", photo: "images/aditi.jpg", initials: "E2" },
+    { id: "REG001", name: "Babu John", designation: "PGT in Zoology", photo: "images/alana.jpg", initials: "E1" },
+    { id: "REG002", name: "Srinivas", designation: "PGT in Civics ", photo: "images/aditi.jpg", initials: "E2" }
   ],
   outsourcing: [
     { id: "OUT001", name: "Mrs.Sarika", designation: "Computer Operator", photo: "images/sarika.jpg", initials: "E1" },
