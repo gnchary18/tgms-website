@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Regular employee details">
+  <title>Regular Employees</title>
+  <link rel="stylesheet" href="styles1.css">
+  <script src="employees.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Employee directory home">
+        <span class="brand-mark">ED</span>
+        <span>Employee Directory</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-home" href="index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">
+            Employee Details <span class="chevron" aria-hidden="true">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="regular.html" class="current">Regular Employees</a>
+            <a href="outsourcing.html" >Outsourcing Employees</a>
+            <a href="hourly.html" >Hourly Based Employees</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="directory-main">
+    <div class="page-heading">
+      <div>
+        <p class="eyebrow">EMPLOYEE DIRECTORY</p>
+        <h1>Regular Employees</h1>
+        <p class="page-intro">Employee information for the regular staff category.</p>
+      </div>
+      <a class="back-link" href="index.html">← Back to all categories</a>
+    </div>
+
+    <section class="employee-grid" id="employee-list" aria-label="Regular Employees list">
+      <!-- Employee cards are created from the data in employees.js. -->
+    </section>
+  </main>
+
+  <footer class="site-footer">Employee Directory <span>•</span> Employee information portal</footer>
+</body>
+</html>
