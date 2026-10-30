@@ -8,7 +8,7 @@
 */
 const employeeData = {
   regular: [
-    { id: "REG001", name: "Mrs. Alana", designation: "Faculty", photo: "images/alana.jpg", initials: "E1" },
+    { id: "REG001", name: "Mrs. Srilatha", designation: "Faculty", photo: "images/alana.jpg", initials: "E1" },
     { id: "REG002", name: "Aditi", designation: "Mini ", photo: "images/aditi.jpg", initials: "E2" },
     { id: "REG001", name: "Mrs. Alana", designation: "Faculty", photo: "images/alana.jpg", initials: "E1" },
     { id: "REG002", name: "Aditi", designation: "Mini ", photo: "images/aditi.jpg", initials: "E2" }
