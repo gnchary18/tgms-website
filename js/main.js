@@ -75,11 +75,11 @@
   function buildNotices() {
     var latest = document.getElementById("latest-notices");
     if (latest) {
-      latest.innerHTML = S.notices.slice(0, 4).map(noticeHTML).join("");
+      latest.innerHTML = S.notices.slice(0, 5).map(noticeHTML).join("");
     }
     var ticker = document.getElementById("ticker-text");
     if (ticker) {
-      ticker.textContent = S.notices.slice(0, 4).map(function (n) { return n.title; }).join("   •   ");
+      ticker.textContent = S.notices.slice(0, 5).map(function (n) { return n.title; }).join("   •   ");
     }
     var all = document.getElementById("all-notices");
     if (all) {
