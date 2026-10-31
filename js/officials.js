@@ -2,32 +2,32 @@
 const staff = [
 
     {
-        name: "Dr. N. Mallareddy",
-        designation: "Assistant Professor",
-        department: "Computer Science",
-        qualification: "M.Sc., Ph.D.",
-        experience: "15 Years",
-        email: "mallareddy@example.com",
+        name: "Sri A.Revanth Reddy",
+        designation: "Chief Minister of Telangana",
+        department: "",
+        qualification: "",
+        experience: "",
+        email: "",
         image: "images/staff1.jpg"
     },
 
     {
-        name: "Mr. B. Suresh",
-        designation: "Assistant Professor",
-        department: "Computer Science",
-        qualification: "M.Sc., M.Phil.",
-        experience: "10 Years",
-        email: "suresh@example.com",
+        name: "Mrs Yogitha Rana",
+        designation: "",
+        department: "",
+        qualification: "",
+        experience: "",
+        email: "",
         image: "images/staff2.jpg"
     },
 
     {
-        name: "Mr. G. Narsimhachary",
-        designation: "Assistant Professor",
-        department: "Computer Science",
-        qualification: "M.Sc., M.Phil.",
-        experience: "12 Years",
-        email: "narsimhachary@example.com",
+        name: "",
+        designation: "",
+        department: "",
+        qualification: "",
+        experience: "",
+        email: "",
         image: "images/staff3.jpg"
     }
 
