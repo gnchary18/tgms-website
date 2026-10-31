@@ -8,10 +8,16 @@
 */
 const employeeData = {
   regular: [
-    { id: "REG001", name: "A.Srilatha", designation: "Principal", photo: "images/alana.jpg", initials: "Principal" },
-    { id: "REG002", name: "S.Sumalatha", designation: "PGT in Chemistry ", photo: "images/aditi.jpg", initials: "PGT(Chemistry)" },
-    { id: "REG001", name: "Babu John", designation: "PGT in Zoology", photo: "images/alana.jpg", initials: "E1" },
-    { id: "REG002", name: "Srinivas", designation: "PGT in Civics ", photo: "images/aditi.jpg", initials: "E2" }
+    { id: "REG001", name: "A.Srilatha", designation: "Principal", photo: "images/alana.jpg", initials: "S" },
+    { id: "REG002", name: "S.Sumalatha", designation: "PGT in Chemistry ", photo: "images/aditi.jpg", initials: "S" },
+    { id: "REG003", name: "Babu John", designation: "PGT in Zoology", photo: "images/alana.jpg", initials: "B" },
+    { id: "REG004", name: "Srinivas", designation: "PGT in Civics ", photo: "images/aditi.jpg", initials: "S" },
+    { id: "REG005", name: "Pradeep", designation: "PGT in Physics", photo: "images/alana.jpg", initials: "P" },
+    { id: "REG006", name: "Alnaz Anjum", designation: "PGT in Botony ", photo: "images/aditi.jpg", initials: "A" },
+    { id: "REG007", name: "Md.Abdul Ravoof", designation: "TGT in Hindi", photo: "images/alana.jpg", initials: "R" },
+    { id: "REG008", name: "Suhasini", designation: "TGT in Science ", photo: "images/aditi.jpg", initials: "S" },
+     { id: "REG009", name: "A.Renuka", designation: "TGT in Mathematics ", photo: "images/aditi.jpg", initials: "R" },
+    { id: "REG010", name: "Chandra Shekhar", designation: "TGT in Telugu ", photo: "images/aditi.jpg", initials: "C" }
   ],
   outsourcing: [
     { id: "OUT001", name: "Mrs.Sarika", designation: "Computer Operator", photo: "images/sarika.jpg", initials: "E1" },
