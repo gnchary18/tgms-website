@@ -79,7 +79,7 @@
     }
     var ticker = document.getElementById("ticker-text");
     if (ticker) {
-      ticker.textContent = S.notices.slice(0, 3).map(function (n) { return n.title; }).join("   •   ");
+      ticker.textContent = S.notices.slice(0, 4).map(function (n) { return n.title; }).join("   •   ");
     }
     var all = document.getElementById("all-notices");
     if (all) {
