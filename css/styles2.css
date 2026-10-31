@@ -86,13 +86,13 @@
 }
 
 .details h3 {
-    font-size: 10px;
+    font-size: 15px;
     color: #183b60;
     margin-bottom: 3px;
 }
 
 .details p {
-    font-size: 8px;
+    font-size: 10px;
     color: #555;
     margin: 2px 0;
     overflow-wrap: anywhere;
