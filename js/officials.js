@@ -4,7 +4,7 @@ const staff = [
     {
         name: "Sri A.Revanth Reddy",
         designation: "Hon'ble Chief Minister of Telangana",
-        image: "images/staff1.jpg"
+        image: "asset/images/cm.jpg"
     },
 
     {
