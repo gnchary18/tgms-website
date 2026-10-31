@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    padding: 15px;
+}
+
+/* Main Staff Container */
+
+.staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+/* Individual Profile Card */
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    width: 100%;
+    max-width: 400px;
+    min-height: 115px;
+
+    padding: 10px;
+    background: #fff;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+
+/* Circular Image Holder */
+
+.circle {
+    width: 85px;
+    height: 85px;
+
+    flex: 0 0 85px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    border: 3px solid #2463a5;
+    background: #e8edf3;
+}
+
+/* Image */
+
+.circle img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 50%;
+}
+
+/* Details Section */
+
+.details {
+    flex: 1;
+    min-width: 0;
+    line-height: 1.4;
+}
+
+.details h3 {
+    font-size: 13px;
+    color: #183b60;
+    margin-bottom: 3px;
+}
+
+.details p {
+    font-size: 10px;
+    color: #555;
+    margin: 2px 0;
+    overflow-wrap: anywhere;
+}
+
+.details .designation {
+    color: #2463a5;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+
+.profile-card:hover {
+    border-color: #2463a5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 450px) {
+
+    .profile-card {
+        max-width: 100%;
+        gap: 9px;
+    }
+
+    .circle {
+        width: 70px;
+        height: 70px;
+        flex-basis: 70px;
+    }
+
+    .details h3 {
+        font-size: 12px;
+    }
+
+    .details p {
+        font-size: 9px;
+    }
+}
