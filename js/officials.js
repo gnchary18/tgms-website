@@ -3,7 +3,7 @@ const staff = [
 
     {
         name: "Sri A.Revanth Reddy",
-        designation: "Chief Minister of Telangana",
+        designation: "Hon'ble Chief Minister of Telangana",
         department: "",
         qualification: "",
         experience: "",
