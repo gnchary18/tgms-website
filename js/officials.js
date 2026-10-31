@@ -4,30 +4,18 @@ const staff = [
     {
         name: "Sri A.Revanth Reddy",
         designation: "Hon'ble Chief Minister of Telangana",
-        department: "",
-        qualification: "",
-        experience: "",
-        email: "",
         image: "images/staff1.jpg"
     },
 
     {
         name: "Mrs Yogitha Rana",
         designation: "",
-        department: "",
-        qualification: "",
-        experience: "",
-        email: "",
         image: "images/staff2.jpg"
     },
 
     {
         name: "",
         designation: "",
-        department: "",
-        qualification: "",
-        experience: "",
-        email: "",
         image: "images/staff3.jpg"
     }
 
@@ -55,22 +43,7 @@ container.innerHTML = staff.map(person => `
                 ${person.designation}
             </p>
 
-            <p>
-                <b>Department:</b> ${person.department}
-            </p>
-
-            <p>
-                <b>Qualification:</b> ${person.qualification}
-            </p>
-
-            <p>
-                <b>Experience:</b> ${person.experience}
-            </p>
-
-            <p>
-                <b>Email:</b> ${person.email}
-            </p>
-
+            
         </div>
 
     </div>
