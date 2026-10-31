@@ -17,8 +17,12 @@ const staff = [
         name: "",
         designation: "",
         image: "images/staff3.jpg"
+    },
+    {
+        name: "",
+        designation: "",
+        image: "images/staff3.jpg"
     }
-
 ];
 
 const container = document.getElementById("staffContainer");
