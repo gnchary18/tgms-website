@@ -1,164 +1,71 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f9;
-    padding: 15px;
-}
-
-/* Main Staff Container */
-
-/* All cards in one single row */
-.staff-container {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    gap: 8px;
-    padding: 8px;
-    overflow: hidden;
-}
-
-/* Each staff card */
-.profile-card {
+.header-staff-row {
     display: flex;
     align-items: center;
+    width: 100%;
     gap: 6px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
 
+/* Three logos */
+.logo-box {
+    flex: 0 0 6%;
+    min-width: 0;
+    text-align: center;
+}
+
+.logo-box img {
+    width: 100%;
+    max-width: 55px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Staff cards */
+.staff-container {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    gap: 6px;
+    flex-wrap: nowrap;
+}
+
+.profile-card {
     flex: 1 1 0;
     min-width: 0;
-    width: 0;
-
-    padding: 6px;
-    min-height: 100px;
-
-    background: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
     border: 1px solid #ddd;
-    border-radius: 7px;
+    border-radius: 6px;
+    background: white;
 }
 
-/* Circular image */
 .circle {
-    width: 55px;
-    height: 55px;
-    flex: 0 0 55px;
-
+    width: 45px;
+    height: 45px;
+    flex: 0 0 45px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid #2463a5;
 }
 
 .circle img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
 }
 
-/* Details */
 .details {
-    flex: 1;
     min-width: 0;
-    line-height: 1.3;
+    flex: 1;
 }
 
 .details h3 {
-    font-size: 11px;
-    margin-bottom: 3px;
-    color: #183b60;
-}
-
-.details p {
-    font-size: 9px;
-    margin: 2px 0;
-    overflow-wrap: anywhere;
-}
-/* Circular Image Holder */
-
-.circle {
-    width: 85px;
-    height: 85px;
-
-    flex: 0 0 85px;
-
-    border-radius: 50%;
-    overflow: hidden;
-
-    border: 3px solid #2463a5;
-    background: #e8edf3;
-}
-
-/* Image */
-
-.circle img {
-    width: 100%;
-    height: 100%;
-
-    display: block;
-    object-fit: cover;
-    object-position: center;
-
-    border-radius: 50%;
-}
-
-/* Details Section */
-
-.details {
-    flex: 1;
-    min-width: 0;
-    line-height: 1.4;
-}
-
-.details h3 {
-    font-size: 13px;
-    color: #183b60;
-    margin-bottom: 3px;
-}
-
-.details p {
     font-size: 10px;
-    color: #555;
-    margin: 2px 0;
+}
+
+.details p {
+    font-size: 8px;
     overflow-wrap: anywhere;
-}
-
-.details .designation {
-    color: #2463a5;
-    font-size: 11px;
-    font-weight: bold;
-}
-
-/* Hover Effect */
-
-.profile-card:hover {
-    border-color: #2463a5;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-}
-
-/* Mobile Responsive */
-
-@media (max-width: 200px) {
-
-    .profile-card {
-        max-width: 100%;
-        gap: 9px;
-    }
-
-    .circle {
-        width: 70px;
-        height: 70px;
-        flex-basis: 70px;
-    }
-
-    .details h3 {
-        font-size: 12px;
-    }
-
-    .details p {
-        font-size: 9px;
-    }
 }
