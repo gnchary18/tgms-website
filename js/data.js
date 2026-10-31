@@ -11,7 +11,7 @@ window.SITE = {
   address: "PMSHRI TELANGANA MODEL SCHOOL & JUNIOR COLLEGE , Dammannapet, GambhiraoPet, Rajanna Siricilla District, Telangana ",
   phone: "+91 9885130905",
   email: "tgms.dammannapet.knr@gmail.com",
-  officeHours: "Mon – Sat, 9:30 AM – 4:30 PM",
+  officeHours: "Mon – Sat, 9:00 AM – 4:15 PM",
   mapQuery: "Dammannapet, Telangana",
 
   // ---- Navigation (file name, label) ----
@@ -30,11 +30,11 @@ window.SITE = {
   // ---- Notices: newest first. type: "general" | "admission" | "exam" | "event" ----
   // date format: YYYY-MM-DD.  Set important:true to highlight a notice.
   notices: [
-    { date: "2026-10-20", title: "Sample notice: Admission information for the next academic year will be announced here.", type: "admission", important: true },
-    { date: "2026-10-12", title: "Sample notice: Term examination timetable will be displayed on the notice board and this page.", type: "exam" },
-    { date: "2026-10-05", title: "Sample notice: Parent–teacher meeting schedule to be announced.", type: "event" },
-    { date: "2026-09-28", title: "Sample notice: Students are reminded to wear the prescribed uniform every day.", type: "general" },
-    { date: "2026-09-15", title: "Sample notice: Science exhibition and cultural day preparations begin.", type: "event" }
+    { date: "2026-10-20", title: "Admission information for the next academic year will be announced here.", type: "admission", important: true },
+    { date: "2026-10-12", title: "Term examination timetable will be displayed on the notice board and this page.", type: "exam" },
+    { date: "2026-10-05", title: "Parent–teacher meeting schedule to be announced.", type: "event" },
+    { date: "2026-09-28", title: "Students are reminded to wear the prescribed uniform every day.", type: "general" },
+    { date: "2026-10-31", title: "Study Hours for SSC and Intermediate students commences from 02-11-2026", type: "Study Hour" }
   ],
 
   // ---- Gallery: put photos in assets/images/ and list them here ----
