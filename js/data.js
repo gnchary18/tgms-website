@@ -34,7 +34,7 @@ window.SITE = {
     { date: "2026-10-12", title: "Term examination timetable will be displayed on the notice board and this page.", type: "exam" },
     { date: "2026-10-05", title: "Parent–teacher meeting schedule to be announced.", type: "event" },
     { date: "2026-09-28", title: "Students are reminded to wear the prescribed uniform every day.", type: "general" },
-    { date: "2026-10-31", title: "Study Hours for SSC and Intermediate students commences from 02-11-2026", type: "Study Hour" }
+    { date: "2026-10-31", title: "Study Hours for SSC and Intermediate students commences from 02-11-2026", type: "exam" }
   ],
 
   // ---- Gallery: put photos in assets/images/ and list them here ----
