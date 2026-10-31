@@ -15,9 +15,11 @@ body {
 
 .staff-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+    flex-wrap: nowrap;
+    gap: 12px;
     justify-content: flex-start;
+    overflow-x: auto;
+    padding: 10px;
 }
 
 /* Individual Profile Card */
@@ -25,19 +27,17 @@ body {
 .profile-card {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 
-    width: 100%;
-    max-width: 200px;
-    min-height: 115px;
+    width: 300px;
+    min-width: 300px;
+    min-height: 105px;
 
-    padding: 10px;
+    padding: 8px;
     background: #fff;
-
     border: 1px solid #ddd;
     border-radius: 8px;
-
-    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+    flex-shrink: 0;
 }
 
 /* Circular Image Holder */
