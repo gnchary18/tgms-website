@@ -13,12 +13,7 @@ const staff = [
         image: "asset/images/yogitarana.jpg"
     },
 
-    {
-        name: "",
-        designation: "",
-        image: "images/staff3.jpg"
-    },
-    {
+      {
         name: "Dr. E. Naveen Nicolas IAS",
         designation: "Director of School Education, Model Schools",
         image: "asset/images/naveennicolus.jpg"
