@@ -5,7 +5,7 @@
     align-items: center;
     width: 100%;
     gap: 8px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     overflow: hidden;
 }
 
@@ -28,24 +28,24 @@
     flex: 1;
     min-width: 0;
     gap: 6px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 /* Staff card */
 .profile-card {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 1px;
 
     flex: 1 1 0;
     min-width: 0;
 
     padding: 6px;
-    min-height: 90px;
+    min-height: 70px;
 
     background: white;
     border: 1px solid #ddd;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 /* FIXED CIRCULAR IMAGE */
