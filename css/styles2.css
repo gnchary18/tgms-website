@@ -107,8 +107,8 @@
     }
 
     .profile-card {
-        flex: 1 1 100%;
-        width: 100%;
+        flex: 1 1 60%;
+        width: 60%;
     }
 
     .circle {
