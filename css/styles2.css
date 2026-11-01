@@ -98,7 +98,7 @@
     object-fit: cover;
     display: block;
 }
-@media (max-width: 450px) {
+@media (max-width: 150px) {
 
     .staff-container {
         display: flex;
