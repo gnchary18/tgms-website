@@ -19,7 +19,7 @@ const staff = [
         image: "asset/images/naveennicolus.jpg"
     },
     {
-        name: "S. Srinivasa Chary",
+        name: "Sri S. Srinivasa Chary",
         designation: "Additional Director, TG Model Schools",
         image: "asset/images/srinivasachary.jpg"
     }
