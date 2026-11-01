@@ -8,9 +8,9 @@ const staff = [
     },
 
     {
-        name: "Dr Yogitha Rana ",
-        designation: "",
-        image: "images/staff2.jpg"
+        name: "Dr Yogitha Rana IAS",
+        designation: "Secretary to Government, Education Department",
+        image: "asset/images/yogitarana.jpg"
     },
 
     {
@@ -19,9 +19,14 @@ const staff = [
         image: "images/staff3.jpg"
     },
     {
-        name: "",
-        designation: "",
-        image: "images/staff3.jpg"
+        name: "Dr. E. Naveen Nicolas IAS",
+        designation: "Director of School Education, Model Schools",
+        image: "asset/images/naveennicolus.jpg"
+    },
+    {
+        name: "S. Srinivasa Chary",
+        designation: "Additional Director, TG Model Schools",
+        image: "asset/images/srinivasachary.jpg"
     }
 ];
 
