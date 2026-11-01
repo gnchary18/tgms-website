@@ -22,78 +22,66 @@
     object-fit: contain;
 }
 
-/* Staff container */
+/* Staff Container */
 .staff-container {
     display: flex;
-    flex: 1;
-    min-width: 0;
-    gap: 6px;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    padding: 8px;
 }
 
-/* Staff card */
+/* Profile Cards */
 .profile-card {
     display: flex;
     align-items: center;
-    gap: 1px;
+    gap: 8px;
 
-    flex: 1 1 0;
+    flex: 1 1 250px;
     min-width: 0;
+    max-width: 100%;
 
-    padding: 6px;
-    min-height: 70px;
+    padding: 8px;
+    min-height: 95px;
 
-    background: white;
+    background: #fff;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
-/* FIXED CIRCULAR IMAGE */
+/* Circular Image */
 .circle {
-    width: 55px !important;
-    height: 55px !important;
-
-    min-width: 55px;
-    min-height: 55px;
-
-    flex: 0 0 55px;
-
-    border-radius: 50% !important;
-    overflow: always;
-
-    display: block;
-    border: 2px solid #2463a5;
-    background: #eee;
-}
-
-/* Image inside circle */
-.circle img {
-    width: 100% !important;
-    height: 100% !important;
-
-    display: block;
-    object-fit: cover;
-    object-position: center;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    flex: 0 0 60px;
 
     border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #2463a5;
 }
 
-/* Staff details */
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Staff Details */
 .details {
     flex: 1;
     min-width: 0;
-    line-height: 1.35;
 }
 
 .details h3 {
-    font-size: 15px;
-    color: #183b60;
+    font-size: 12px;
     margin-bottom: 3px;
 }
 
 .details p {
     font-size: 10px;
-    color: #555;
     margin: 2px 0;
     overflow-wrap: anywhere;
 }
@@ -109,4 +97,24 @@
     height: 100%;
     object-fit: cover;
     display: block;
+}
+@media (max-width: 768px) {
+
+    .staff-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .profile-card {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .circle {
+        width: 55px;
+        height: 55px;
+        min-width: 55px;
+        flex-basis: 55px;
+    }
 }
