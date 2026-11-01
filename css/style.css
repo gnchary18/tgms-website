@@ -296,7 +296,7 @@ input:focus, textarea:focus, select:focus { outline: 3px solid rgba(21,101,192,.
 }
 /* Live clock in website header */
 .header-clock {
-    display: ilie-block;
+    display: inlie-block;
     align-items: left;
     justify-content: center;
     flex-wrap: wrap;
