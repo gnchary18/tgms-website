@@ -56,6 +56,39 @@ p { margin: 0 0 1em; }
 .topbar { background: var(--navy-dark); color: #dbe7f5; font-size: .85rem; }
 .topbar .container { display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; justify-content: space-between; padding: .45rem 0; }
 .topbar a { color: #fff; }
+/* Education Department Banner */
+
+.education-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.education-banner img {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+    .education-banner {
+        padding: 4px 5px;
+    }
+
+    .education-banner img {
+        width: 100%;
+        height: auto;
+    }
+}
 
 /* ---------- Header / nav ---------- */
 .site-header {
