@@ -188,7 +188,7 @@ p { margin: 0 0 1em; }
 /* ---------- Message cards ---------- */
 .person { text-align: center; }
 .avatar {
-  width: 96px; height: 96px; border-radius: 50%; margin: 0 auto 14px; display: grid; place-items: center;
+  width: 150px; height: 150px; border-radius: 50%; margin: 0 auto 14px; display: grid; place-items: center;
   background: linear-gradient(135deg, var(--navy), var(--blue)); color: #fff; font-size: 2.2rem; font-weight: 700;
 }
 
