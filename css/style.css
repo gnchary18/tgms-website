@@ -264,14 +264,14 @@ input:focus, textarea:focus, select:focus { outline: 3px solid rgba(21,101,192,.
 /* Live clock in website header */
 .header-clock {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
     padding: 8px 14px;
     color: #ffffff;
     background: #064e3b;
-    border-radius: 6px;
+    border-radius: 10px;
     font-family: Arial, sans-serif;
     font-size: 15px;
     font-weight: bold;
