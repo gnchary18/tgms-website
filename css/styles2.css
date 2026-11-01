@@ -6,7 +6,7 @@
     width: 100%;
     gap: 8px;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow: always;
 }
 
 /* Three logos */
@@ -59,7 +59,7 @@
     flex: 0 0 55px;
 
     border-radius: 50% !important;
-    overflow: hidden;
+    overflow: always;
 
     display: block;
     border: 2px solid #2463a5;
@@ -100,7 +100,7 @@
 .staff-banner {
     width: 100%;
     height: 140px;
-    overflow: hidden;
+    overflow: always;
     border-radius: 8px;
 }
 
