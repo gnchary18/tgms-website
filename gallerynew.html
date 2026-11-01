@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="#photos" aria-label="Gallery home">Gallery</a>
+      <div class="tabs" role="tablist" aria-label="Gallery sections">
+        <button class="tab" role="tab" id="tab-photos" aria-controls="panel-photos" aria-selected="true">
+          Photos <span class="count" id="count-photos"></span>
+        </button>
+        <button class="tab" role="tab" id="tab-videos" aria-controls="panel-videos" aria-selected="false" tabindex="-1">
+          Videos <span class="count" id="count-videos"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel" role="tabpanel" id="panel-photos" aria-labelledby="tab-photos">
+      <div class="intro">
+        <h1>Photos</h1>
+        <p>A curated mosaic, grouped by category. Select any photo to view it full screen.</p>
+      </div>
+      <div class="chips" id="chips-photos" role="group" aria-label="Filter photos by category"></div>
+      <div id="sections-photos"></div>
+    </section>
+
+    <section class="panel" role="tabpanel" id="panel-videos" aria-labelledby="tab-videos" hidden>
+      <div class="intro">
+        <h1>Videos</h1>
+        <p>Hover a card to preview it, or select it to watch in the player.</p>
+      </div>
+      <div class="chips" id="chips-videos" role="group" aria-label="Filter videos by category"></div>
+      <div id="sections-videos"></div>
+    </section>
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Media viewer">
+    <button class="lb-btn lb-close" id="lb-close" aria-label="Close viewer">&times;</button>
+    <button class="lb-btn lb-prev" id="lb-prev" aria-label="Previous">&#8249;</button>
+    <figure class="lb-figure">
+      <div class="lb-media" id="lb-media"></div>
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lb-btn lb-next" id="lb-next" aria-label="Next">&#8250;</button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
