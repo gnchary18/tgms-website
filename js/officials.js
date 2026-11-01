@@ -8,7 +8,7 @@ const staff = [
     },
 
     {
-        name: "Mrs Yogitha Rana",
+        name: "Dr Yogitha Rana ",
         designation: "",
         image: "images/staff2.jpg"
     },
