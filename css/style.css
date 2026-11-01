@@ -298,17 +298,17 @@ input:focus, textarea:focus, select:focus { outline: 3px solid rgba(21,101,192,.
 .header-clock {
     display: inlie-block;
     align-items: left;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     gap: 8px;
     padding: 8px 14px;
     color: #ffffff;
-    background: #1aff8c;
+    background: blue;
     border-radius: 10px;
     font-family: Arial, sans-serif;
     font-size: 15px;
     font-weight: bold;
-    width: fit-content;
+    width: 100%;
     margin: 8px auto;
 }
 
