@@ -3,7 +3,7 @@
    Change the values below; every page picks them up automatically.
    ========================================================== */
 window.SITE = {
-  name: "TGMS Dammannapet",
+  name: "PMSHRI TGMS Dammannapet",
   tagline: "Telangana Model School & Junior College",
   motto: "Learning with discipline, curiosity and care",
 
