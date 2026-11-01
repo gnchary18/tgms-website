@@ -40,7 +40,7 @@ window.SITE = {
   // ---- Gallery: put photos in assets/images/ and list them here ----
   // If a file is missing the tile shows a coloured placeholder instead.
   gallery: [
-    { src: "asset/images/Groupphoto.jpeg", caption: "School campus" },
+    { src: "asset/images/Groupphoto.jpeg", caption: "School campus", type:"PMSHRI" },
     { src: "asset/images/ptm1.jpeg", caption: "Classroom learning" },
     { src: "asset/images/ptm2.jpeg", caption: "Science laboratory" },
     { src: "asset/images/pmshrilogo.jpeg", caption: "Sports day" },
