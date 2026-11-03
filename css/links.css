@@ -1,0 +1,269 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fa;
+    color: #263238;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(120deg, #073b70, #087c9c);
+    color: white;
+    padding: 25px 5%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: white;
+    color: #07518a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.header h1 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.header p {
+    font-size: 14px;
+}
+
+/* Navigation */
+.navbar {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 15px;
+    box-shadow: 0 2px 8px #00000012;
+}
+
+.navbar a {
+    color: #07518a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #e67e22;
+}
+
+/* Main Container */
+.container {
+    width: 92%;
+    max-width: 1250px;
+    margin: 30px auto;
+}
+
+.welcome {
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.welcome h2 {
+    color: #07518a;
+    margin-bottom: 12px;
+}
+
+.welcome p {
+    color: #65717c;
+    line-height: 1.6;
+}
+
+/* Search */
+.search-section {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0 35px;
+}
+
+.search-section input,
+.search-section select {
+    padding: 13px;
+    border: 1px solid #ccd5df;
+    border-radius: 6px;
+    font-size: 15px;
+    background: white;
+}
+
+.search-section input {
+    flex: 1;
+}
+
+.search-section select {
+    width: 220px;
+}
+
+/* Section Heading */
+.section-title {
+    margin: 35px 0 20px;
+    border-left: 5px solid #087c9c;
+    padding: 10px 15px;
+    background: #e8f2f8;
+    color: #07518a;
+}
+
+.section-title h2 {
+    font-size: 21px;
+}
+
+/* Website Cards */
+.website-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.website-card {
+    background: white;
+    padding: 25px 18px;
+    border-radius: 10px;
+    border: 1px solid #e3e8ee;
+    box-shadow: 0 3px 12px #00000009;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    min-height: 245px;
+}
+
+.website-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px #00000016;
+    border-color: #087c9c;
+}
+
+.card-icon {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.website-card h3 {
+    color: #07518a;
+    font-size: 17px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.website-card p {
+    font-size: 14px;
+    color: #687681;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.website-card a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background: #075b91;
+    color: white;
+    text-align: center;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.website-card a:hover {
+    background: #e67e22;
+}
+
+.no-results {
+    display: none;
+    text-align: center;
+    padding: 30px;
+    color: #c0392b;
+}
+
+/* Footer */
+footer {
+    background: #073b70;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    line-height: 2;
+    font-size: 13px;
+}
+
+footer a {
+    color: #ffda8a;
+    text-decoration: none;
+}
+
+/* Tablet */
+@media (max-width: 1000px) {
+    .website-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .header {
+        padding: 20px 15px;
+    }
+
+    .header h1 {
+        font-size: 19px;
+    }
+
+    .header p {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        gap: 15px;
+        font-size: 13px;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    .search-section {
+        flex-direction: column;
+    }
+
+    .search-section select {
+        width: 100%;
+    }
+
+    .website-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .website-card {
+        min-height: 210px;
+    }
+
+    .section-title h2 {
+        font-size: 18px;
+    }
+}
