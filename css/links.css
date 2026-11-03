@@ -13,7 +13,7 @@ body {
 
 /* Header */
 .header {
-    background: linear-gradient(120deg, #073b70, #087c9c);
+    background: linear-gradient(120deg, #076870, linear-gradient(120deg, #07701b, rgb(243, 123, 35)));
     color: white;
     padding: 25px 5%;
 }
