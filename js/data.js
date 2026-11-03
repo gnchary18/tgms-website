@@ -22,6 +22,7 @@ window.SITE = {
     ["admissions.html", "Admissions"],
     ["facilities.html", "Facilities"],
    ["Staff.html", "Staff"],
+     ["links.html","Official links"]
     ["gallerynew.html", "Gallery"],
     ["notices.html", "Notices"],
     ["contact.html", "Contact"]
