@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telangana Education Department Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header-content">
+        <div class="logo">TG</div>
+        <div>
+            <h1>Telangana State Education Department</h1>
+            <p>Official Government Departments, Boards & Educational Institutions</p>
+        </div>
+    </div>
+</header>
+
+<nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#school">School Education</a>
+    <a href="#higher">Higher Education</a>
+    <a href="#other">Other Portals</a>
+</nav>
+
+<main class="container" id="home">
+
+    <section class="welcome">
+        <h2>Education Department – Telangana</h2>
+        <p>
+            Access important official websites of Telangana State
+            Education Department from one centralized platform.
+        </p>
+    </section>
+
+    <div class="search-section">
+        <input type="text" id="searchInput"
+        placeholder="Search department or website...">
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="school">School Education</option>
+            <option value="higher">Higher Education</option>
+            <option value="technical">Technical Education</option>
+            <option value="other">Other Services</option>
+        </select>
+    </div>
+
+    <div class="section-title" id="school">
+        <h2>School Education Department</h2>
+    </div>
+
+    <div class="website-grid">
+
+        <div class="website-card" data-category="school">
+            <div class="card-icon">🏫</div>
+            <h3>School Education Department</h3>
+            <p>Commissioner and Director of School Education, Telangana.</p>
+            <a href="https://schooledu.telangana.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+        <div class="website-card" data-category="school">
+            <div class="card-icon">📚</div>
+            <h3>SCERT Telangana</h3>
+            <p>Curriculum, textbooks, academic resources and teacher training.</p>
+            <a href="https://scert.telangana.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+        <div class="website-card" data-category="school">
+            <div class="card-icon">📝</div>
+            <h3>Directorate of Government Examinations</h3>
+            <p>SSC examinations, results and examination notifications.</p>
+            <a href="https://bse.telangana.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+        <div class="website-card" data-category="school">
+            <div class="card-icon">🎓</div>
+            <h3>Samagra Shiksha</h3>
+            <p>School education development and implementation programmes.</p>
+            <a href="https://samagrashiksha.telangana.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+    </div>
+
+    <div class="section-title" id="higher">
+        <h2>Higher Education Department</h2>
+    </div>
+
+    <div class="website-grid">
+
+        <div class="website-card" data-category="higher">
+            <div class="card-icon">🏛️</div>
+            <h3>Higher Education Department</h3>
+            <p>Government of Telangana – Higher Education.</p>
+            <a href="https://tgche.telangana.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+        <div class="website-card" data-category="higher">
+            <div class="card-icon">📖</div>
+            <h3>Board of Intermediate Education</h3>
+            <p>Intermediate examinations, results and academic information.</p>
+            <a href="https://tgbie.cgg.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+        <div class="website-card" data-category="higher">
+            <div class="card-icon">🎯</div>
+            <h3>ePASS Scholarship Portal</h3>
+            <p>Scholarships, fee reimbursement and student applications.</p>
+            <a href="https://telanganaepass.cgg.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+        <div class="website-card" data-category="higher">
+            <div class="card-icon">🎓</div>
+            <h3>Commissionerate of Collegiate Education</h3>
+            <p>Collegiate education administration and related services.</p>
+            <a href="https://www.tgche.ac.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+    </div>
+
+    <div class="section-title" id="other">
+        <h2>Technical Education & Other Services</h2>
+    </div>
+
+    <div class="website-grid">
+
+        <div class="website-card" data-category="technical">
+            <div class="card-icon">💻</div>
+            <h3>Department of Technical Education</h3>
+            <p>Technical education administration and institutional information.</p>
+            <a href="https://dte.telangana.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+        <div class="website-card" data-category="technical">
+            <div class="card-icon">⚙️</div>
+            <h3>State Board of Technical Education</h3>
+            <p>Technical diploma examinations and academic services.</p>
+            <a href="https://sbtet.telangana.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+        <div class="website-card" data-category="other">
+            <div class="card-icon">🌐</div>
+            <h3>Telangana State Portal</h3>
+            <p>Official Government of Telangana website and services.</p>
+            <a href="https://www.telangana.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+        <div class="website-card" data-category="other">
+            <div class="card-icon">📺</div>
+            <h3>T-SAT Network</h3>
+            <p>Educational television and digital learning resources.</p>
+            <a href="https://softnet.telangana.gov.in/"
+               target="_blank">Visit Website ↗</a>
+        </div>
+
+    </div>
+
+    <p id="noResults" class="no-results">
+        No matching websites found.
+    </p>
+
+</main>
+
+<footer>
+    <p>© 2026 Telangana State Education Department – Website Directory</p>
+    <p>For information purposes. All external websites belong to their respective departments.</p>
+    <a href="https://www.telangana.gov.in/state-web-directory/"
+       target="_blank">Official Telangana State Web Directory</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
