@@ -24,7 +24,7 @@
   }
 
   var photoData = {
-    staff:["ANANTHULA_SRILATHA.jpg", "river", "peak", "lake", "moss", "canyon"],
+    staff:["cm.jpg", "yogitharana.jpg", "peak", "lake", "moss", "canyon"],
     Labs: ["tower", "arch", "facade", "atrium", "spire", "plaza"],
     Ground:["bread", "citrus", "noodles", "spice", "berries", "cheese"],
     Kitchen:["station", "alley", "ferry", "temple", "village", "highway"],
