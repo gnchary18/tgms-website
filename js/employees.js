@@ -23,8 +23,8 @@ const employeeData = {
     
   ],
   outsourcing: [
-    { id: "OUT001", name: "Mrs.Sarika", designation: "Computer Operator", photo: "images/sarika.jpg", initials: "E1" },
-    { id: "OUT002", name: "Mr.Srinivas", designation: "Lab Assistant", photo: "images/srinivas.jpg", initials: "E2" }
+    { id: "9003584", name: "Bhukya Manjula", designation: "Physical Director", photo: "../asset/images/staff/BHUKYA_MANJULA.jpg", initials: "E1" },
+    { id: "        ", name: "Penjarla Sandeep", designation: "Vocational Trainer", photo: "../asset/images/staff/PENJARLA_SANDEEP.jpg", initials: "E2" }
   ],
   hourly: [
     { id: "21907", name: "Middela Laxmi", designation: "PGT in Telugu", photo: "../asset/images/staff/MIDDELA_LAXMI.jpg", initials: "E1" },
