@@ -24,7 +24,12 @@ const employeeData = {
   ],
   outsourcing: [
     { id: "9003584", name: "Bhukya Manjula", designation: "Physical Director", photo: "../asset/images/staff/BHUKYA_MANJULA.jpg", initials: "E1" },
-    { id: "        ", name: "Penjarla Sandeep", designation: "Vocational Trainer", photo: "../asset/images/staff/PENJARLA_SANDEEP.jpg", initials: "E2" }
+    { id: "        ", name: "Penjarla Sandeep", designation: "Vocational Trainer", photo: "../asset/images/staff/PENJARLA_SANDEEP.jpg", initials: "E2" },
+    { id: "       ", name: "Karmankar Shivarani", designation: "Vocational Trainer", photo: "../asset/images/staff/KARMANKAR_SHIVARANI.jpg", initials: "E1" },
+    { id: "22604", name: "Bandari Gouthami", designation: "Data Entry Operator", photo: "../asset/images/staff/BANDARI_GOUTHAMI.jpg", initials: "E2" },
+    { id: "       ", name: "Banoth Shailaja", designation: "ICT Instructor", photo: "../asset/images/staff/BANOTH_SHAILAJA.jpg", initials: "E1" },
+    { id: "22160", name: "Narahari Guguloth", designation: "Office Subordinate", photo: "../asset/images/staff/NARAHARI_GUGULOTH.jpg", initials: "E2" },
+     { id: "9003586", name: "Kamatam Laxman", designation: "Night Watchmen", photo: "../asset/images/staff/KAMATAM_LAXMAN.jpg", initials: "E1" },
   ],
   hourly: [
     { id: "21907", name: "Middela Laxmi", designation: "PGT in Telugu", photo: "../asset/images/staff/MIDDELA_LAXMI.jpg", initials: "E1" },
