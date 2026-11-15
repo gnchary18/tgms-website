@@ -24,7 +24,7 @@
   }
 
   var photoData = {
-    Nature:       ["ANATHULA_SRILATHA", "river", "peak", "lake", "moss", "canyon"],
+    Nature:       ["ANATHULA_SRILATHA.jpg", "river", "peak", "lake", "moss", "canyon"],
     Architecture: ["tower", "arch", "facade", "atrium", "spire", "plaza"],
     Food:         ["bread", "citrus", "noodles", "spice", "berries", "cheese"],
     Travel:       ["station", "alley", "ferry", "temple", "village", "highway"],
