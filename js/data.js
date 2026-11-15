@@ -17,7 +17,7 @@ window.SITE = {
   // ---- Navigation (file name, label) ----
   nav: [
     ["index.html", "Home"],
-    ["about.html", "About Us"],
+    ["/about/", "About Us"],
     ["academics.html", "Academics"],
     ["admissions.html", "Admissions"],
     ["facilities.html", "Facilities"],
