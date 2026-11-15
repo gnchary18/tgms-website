@@ -8,16 +8,19 @@
 */
 const employeeData = {
   regular: [
-    { id: "REG001", name: "A.Srilatha", designation: "Principal", photo: "images/alana.jpg", initials: "S" },
-    { id: "REG002", name: "S.Sumalatha", designation: "PGT in Chemistry ", photo: "images/aditi.jpg", initials: "S" },
-    { id: "REG003", name: "Babu John", designation: "PGT in Zoology", photo: "images/alana.jpg", initials: "B" },
-    { id: "REG004", name: "Srinivas", designation: "PGT in Civics ", photo: "images/aditi.jpg", initials: "S" },
-    { id: "REG005", name: "Pradeep", designation: "PGT in Physics", photo: "images/alana.jpg", initials: "P" },
-    { id: "REG006", name: "Alnaz Anjum", designation: "PGT in Botony ", photo: "images/aditi.jpg", initials: "A" },
-    { id: "REG007", name: "ABDUL_RAVOOF_MOHAMMED", designation: "TGT in Hindi", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "R" },
-    { id: "REG008", name: "Suhasini", designation: "TGT in Science ", photo: "images/aditi.jpg", initials: "S" },
-     { id: "REG009", name: "A.Renuka", designation: "TGT in Mathematics ", photo: "images/aditi.jpg", initials: "R" },
-    { id: "REG010", name: "Chandra Shekhar", designation: "TGT in Telugu ", photo: "images/aditi.jpg", initials: "C" }
+    { id: "9000434", name: "Ananthula Srilatha", designation: "Principal", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "S" },
+    { id: "9002734", name: "Donthula Pradeep Kumar", designation: "PGT in Physics", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "P" },
+    { id: "9000443", name: "Sabbani Sumalatha", designation: "PGT in Chemistry ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpgg", initials: "S" },
+    { id: "9002671", name: "Babu John.MD", designation: "PGT in Zoology", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "B" },
+    { id: "9000432", name: "Vadluri Srinivas", designation: "PGT in Civics ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "S" },
+    
+    { id: "9001069", name: "Alnaz Anjum", designation: "PGT in Botony ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "A" },
+    { id: "9002179", name: "Peddi Chandra Shekhar", designation: "TGT in Telugu ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "C" },
+    { id: "9002975", name: "Ancha Renuka", designation: "TGT in Mathematics ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "R" },
+    { id: "9000251", name: "Abdul Ravoof Mohammad", designation: "TGT in Hindi", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "R" },
+    { id: "9000873", name: "Battu Suhasini", designation: "TGT in Science ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "S" },
+     ,
+    
   ],
   outsourcing: [
     { id: "OUT001", name: "Mrs.Sarika", designation: "Computer Operator", photo: "images/sarika.jpg", initials: "E1" },
