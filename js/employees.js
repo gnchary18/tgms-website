@@ -27,9 +27,13 @@ const employeeData = {
     { id: "OUT002", name: "Mr.Srinivas", designation: "Lab Assistant", photo: "images/srinivas.jpg", initials: "E2" }
   ],
   hourly: [
-    { id: "HOUR001", name: "Mr.Narsimha Chary", designation: "Associate Professor", photo: "images/charysir.jpg", initials: "E1" },
-    { id: "HOUR002", name: "Mrs. Jayanthi Madam", designation: "Associate Professor", photo: "images/jayanthi.jpg", initials: "E2" }
-  ]
+    { id: "21907", name: "Middela Laxmi", designation: "PGT in Telugu", photo: "../asset/images/staff/MIDDELA_LAXMI.jpg", initials: "E1" },
+    { id: "22074", name: "Athmakuri Praveena", designation: "PGT in Economics", photo: "../asset/images/staff/ATHMAKURI PAVEENA.jpg", initials: "E1" },
+    { id: "22314", name: "Baddipadaga Santhosha", designation: "PGT in Mathematics", photo: "../asset/images/staff/BBADDIPADAGA_SATHOSHA.jpg", initials: "E1" },
+    { id: "22755", name: "Rangu Ravinder", designation: "PGT in Commerce", photo: "../asset/images/staff/RANGU_RAVINDER.jpg", initials: "E1" },
+    { id: "22754", name: "Gotte Sravanthi", designation: "PGT in English", photo: "../asset/images/staff/GOTTE_SRAVANTHI.jpg", initials: "E1" },
+    { id: "21904", name: "Parsa Rajitha", designation: "PGT in English", photo: "../asset/images/staff/PARSA_RAJUTHA.jpg", initials: "E1" },
+    ]
 };
 
 function createEmployeeCard(employee) {
