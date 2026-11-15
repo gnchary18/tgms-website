@@ -8,7 +8,7 @@
 */
 const employeeData = {
   regular: [
-    { id: "9000434", name: "Ananthula Srilatha", designation: "Principal", photo: "../asset/images/staff/ANANTHULA_SRILATHA.jpg", initials: "S" },
+    { id: "9000434", name: "Ananthula Srilatha", designation: "Principal (FAC)", photo: "../asset/images/staff/ANANTHULA_SRILATHA.jpg", initials: "S" },
     { id: "9002734", name: "Donthula Pradeep Kumar", designation: "PGT in Physics", photo: "../asset/images/staff/DONTHULA_PRADEEP_KUMAR.jpg", initials: "P" },
     { id: "9000443", name: "Sabbani Sumalatha", designation: "PGT in Chemistry ", photo: "../asset/images/staff/SABBANI_SUMALATHA.jpg", initials: "S" },
     { id: "9002671", name: "Babu John.MD", designation: "PGT in Zoology", photo: "../asset/images/staff/BABU_JOHN_MD.jpg", initials: "B" },
