@@ -20,15 +20,16 @@
   };
 
   function photoUrl(seed, w, h) {
-    return "..asset/images/staff/" + seed + "/" + w + "/" + h;
+    return "..asset/images/" + seed + "/" + w + "/" + h;
   }
 
   var photoData = {
-    Staff:       ["ANANTHULA_SRILATHA.jpg", "river", "peak", "lake", "moss", "canyon"],
-    Architecture: ["tower", "arch", "facade", "atrium", "spire", "plaza"],
-    Food:         ["bread", "citrus", "noodles", "spice", "berries", "cheese"],
-    Travel:       ["station", "alley", "ferry", "temple", "village", "highway"],
-    Animals:      ["heron", "fox", "gecko", "owl", "otter", "moth"]
+    staff:["ANANTHULA_SRILATHA.jpg", "river", "peak", "lake", "moss", "canyon"],
+    Labs: ["tower", "arch", "facade", "atrium", "spire", "plaza"],
+    Ground:["bread", "citrus", "noodles", "spice", "berries", "cheese"],
+    Kitchen:["station", "alley", "ferry", "temple", "village", "highway"],
+    PTM:["station", "alley", "ferry", "temple", "village", "highway"],
+    PMSHRI_Activities:["heron", "fox", "gecko", "owl", "otter", "moth"]
   };
 
   var photoCategories = Object.keys(photoData).map(function (name) {
