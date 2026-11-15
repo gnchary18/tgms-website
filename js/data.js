@@ -21,7 +21,7 @@ window.SITE = {
     ["../academics.html", "Academics"],
     ["../admissions.html", "Admissions"],
     ["../facilities.html", "Facilities"],
-   ["../Staff.html", "Staff"],
+   ["../Staff1.html", "Staff"],
     ["../links.html","Official links"],
     ["../gallerynew.html", "Gallery"],
     ["../notices.html", "Notices"],
