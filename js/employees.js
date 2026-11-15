@@ -14,7 +14,7 @@ const employeeData = {
     { id: "REG004", name: "Srinivas", designation: "PGT in Civics ", photo: "images/aditi.jpg", initials: "S" },
     { id: "REG005", name: "Pradeep", designation: "PGT in Physics", photo: "images/alana.jpg", initials: "P" },
     { id: "REG006", name: "Alnaz Anjum", designation: "PGT in Botony ", photo: "images/aditi.jpg", initials: "A" },
-    { id: "REG007", name: "Md.Abdul Ravoof", designation: "TGT in Hindi", photo: "images/alana.jpg", initials: "R" },
+    { id: "REG007", name: "Md.Abdul Ravoof", designation: "TGT in Hindi", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "R" },
     { id: "REG008", name: "Suhasini", designation: "TGT in Science ", photo: "images/aditi.jpg", initials: "S" },
      { id: "REG009", name: "A.Renuka", designation: "TGT in Mathematics ", photo: "images/aditi.jpg", initials: "R" },
     { id: "REG010", name: "Chandra Shekhar", designation: "TGT in Telugu ", photo: "images/aditi.jpg", initials: "C" }
