@@ -40,7 +40,7 @@
         var size = SIZES[cls];
         return {
           type: "image",
-          src: photoUrl(seed, size[0], size[1]),
+          src: photoUrl(images, size[0], size[1]),
           title: name + " " + String(i + 1).padStart(2, "0"),
           cls: cls,
           w: size[0],
