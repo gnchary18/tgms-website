@@ -20,11 +20,11 @@
   };
 
   function photoUrl(seed, w, h) {
-    return "https://picsum.photos/seed/" + seed + "/" + w + "/" + h;
+    return "..asset/images/seed/" + seed + "/" + w + "/" + h;
   }
 
   var photoData = {
-    Nature:       ["forest", "river", "peak", "lake", "moss", "canyon"],
+    Nature:       ["ANATHULA_SRILATHA", "river", "peak", "lake", "moss", "canyon"],
     Architecture: ["tower", "arch", "facade", "atrium", "spire", "plaza"],
     Food:         ["bread", "citrus", "noodles", "spice", "berries", "cheese"],
     Travel:       ["station", "alley", "ferry", "temple", "village", "highway"],
