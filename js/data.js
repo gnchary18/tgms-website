@@ -16,16 +16,16 @@ window.SITE = {
 
   // ---- Navigation (file name, label) ----
   nav: [
-    ["index.html", "Home"],
+    ["../index.html", "Home"],
     ["/about/", "About Us"],
-    ["academics.html", "Academics"],
-    ["admissions.html", "Admissions"],
-    ["facilities.html", "Facilities"],
-   ["Staff.html", "Staff"],
-    ["links.html","Official links"],
-    ["gallerynew.html", "Gallery"],
-    ["notices.html", "Notices"],
-    ["contact.html", "Contact"]
+    ["../academics.html", "Academics"],
+    ["../admissions.html", "Admissions"],
+    ["../facilities.html", "Facilities"],
+   ["../Staff.html", "Staff"],
+    ["../links.html","Official links"],
+    ["../gallerynew.html", "Gallery"],
+    ["../notices.html", "Notices"],
+    ["../contact.html", "Contact"]
   ],
 
   // ---- Notices: newest first. type: "general" | "admission" | "exam" | "event" ----
