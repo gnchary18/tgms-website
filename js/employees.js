@@ -8,17 +8,17 @@
 */
 const employeeData = {
   regular: [
-    { id: "9000434", name: "Ananthula Srilatha", designation: "Principal", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "S" },
-    { id: "9002734", name: "Donthula Pradeep Kumar", designation: "PGT in Physics", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "P" },
-    { id: "9000443", name: "Sabbani Sumalatha", designation: "PGT in Chemistry ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpgg", initials: "S" },
-    { id: "9002671", name: "Babu John.MD", designation: "PGT in Zoology", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "B" },
-    { id: "9000432", name: "Vadluri Srinivas", designation: "PGT in Civics ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "S" },
+    { id: "9000434", name: "Ananthula Srilatha", designation: "Principal", photo: "../asset/images/staff/ANANTHULA_SRILATHA.jpg", initials: "S" },
+    { id: "9002734", name: "Donthula Pradeep Kumar", designation: "PGT in Physics", photo: "../asset/images/staff/DONTHULA_PRADEEP_KUMAR.jpg", initials: "P" },
+    { id: "9000443", name: "Sabbani Sumalatha", designation: "PGT in Chemistry ", photo: "../asset/images/staff/SABBANI_SUMALATHA.jpg", initials: "S" },
+    { id: "9002671", name: "Babu John.MD", designation: "PGT in Zoology", photo: "../asset/images/staff/BABU_JOHN_MD.jpg", initials: "B" },
+    { id: "9000432", name: "Vadluri Srinivas", designation: "PGT in Civics ", photo: "../asset/images/staff/VADLURI_SRINIVAS.jpg", initials: "S" },
     
     { id: "9001069", name: "Alnaz Anjum", designation: "PGT in Botony ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "A" },
-    { id: "9002179", name: "Peddi Chandra Shekhar", designation: "TGT in Telugu ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "C" },
-    { id: "9002975", name: "Ancha Renuka", designation: "TGT in Mathematics ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "R" },
+    { id: "9002179", name: "Peddi Chandra Shekhar", designation: "TGT in Telugu ", photo: "../asset/images/staff/PEDDI_CHANDRASHEKAR.jpg", initials: "C" },
+    { id: "9002975", name: "Ancha Renuka", designation: "TGT in Mathematics ", photo: "../asset/images/staff/ANCHA_RENUKA.jpg", initials: "R" },
     { id: "9000251", name: "Abdul Ravoof Mohammad", designation: "TGT in Hindi", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "R" },
-    { id: "9000873", name: "Battu Suhasini", designation: "TGT in Science ", photo: "../asset/images/staff/ABDUL_RAVOOF_MOHAMMED.jpg", initials: "S" },
+    { id: "9000873", name: "Battu Suhasini", designation: "TGT in Science ", photo: "../asset/images/staff/BATTU_SUHASINI.jpg", initials: "S" },
      ,
     
   ],
