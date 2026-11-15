@@ -20,7 +20,7 @@
   };
 
   function photoUrl(seed, w, h) {
-    return "..asset/images/seed/" + seed + "/" + w + "/" + h;
+    return "..asset/images/staff/" + seed + "/" + w + "/" + h;
   }
 
   var photoData = {
