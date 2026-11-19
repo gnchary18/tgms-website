@@ -23,7 +23,7 @@ window.SITE = {
     ["../facilities.html", "Facilities"],
    ["../Staff.html", "Staff"],
     ["../links.html","Official links"],
-    ["../gallerynew.html", "Gallery"],
+    ["../gallery1.html", "Gallery"],
     ["../notices.html", "Notices"],
     ["../contact.html", "Contact"]
   ],
