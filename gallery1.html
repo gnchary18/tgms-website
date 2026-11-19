@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | TGMS Dammannapet</title>
+
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+
+<body>
+
+<section class="gallery-section">
+
+    <div class="gallery-header">
+        <span class="sub-heading">OUR CAMPUS LIFE</span>
+        <h1>Photo Gallery</h1>
+        <p>
+            Explore the memorable moments, activities,
+            achievements and infrastructure of TGMS Dammannapet.
+        </p>
+    </div>
+
+    <!-- Category Menu -->
+    <div class="gallery-filters" id="galleryFilters">
+        <button class="filter-btn active" data-filter="all">
+            All Photos
+        </button>
+
+        <button class="filter-btn" data-filter="classrooms">
+            Classrooms
+        </button>
+
+        <button class="filter-btn" data-filter="labs">
+            Laboratories
+        </button>
+
+        <button class="filter-btn" data-filter="activities">
+            Activities
+        </button>
+
+        <button class="filter-btn" data-filter="sports">
+            Sports
+        </button>
+
+        <button class="filter-btn" data-filter="cultural">
+            Cultural
+        </button>
+
+        <button class="filter-btn" data-filter="infrastructure">
+            Infrastructure
+        </button>
+
+        <button class="filter-btn" data-filter="staff">
+            Staff
+        </button>
+
+        <button class="filter-btn" data-filter="events">
+            Events
+        </button>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="gallery-grid" id="galleryGrid">
+
+        <!-- Images are loaded through JavaScript -->
+
+    </div>
+
+</section>
+
+<!-- Image Preview -->
+<div class="lightbox" id="lightbox">
+
+    <button class="close-btn" id="closeLightbox">
+        &times;
+    </button>
+
+    <button class="nav-btn prev-btn" id="prevImage">
+        &#10094;
+    </button>
+
+    <div class="lightbox-content">
+
+        <img src="" alt="Gallery Image" id="lightboxImage">
+
+        <div class="image-caption" id="imageCaption"></div>
+
+    </div>
+
+    <button class="nav-btn next-btn" id="nextImage">
+        &#10095;
+    </button>
+
+</div>
+
+<script src="js/gallery.js"></script>
+
+</body>
+</html>
