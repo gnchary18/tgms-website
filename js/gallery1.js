@@ -86,27 +86,40 @@ let currentIndex = 0;
 
 // Display Gallery
 
+
 function displayGallery(category = "all") {
 
     galleryGrid.innerHTML = "";
 
-    currentImages = galleryData.filter(item =>
-        category === "all" || item.category === category
-    );
+    const filteredImages = galleryData.filter(item => {
 
-    currentImages.forEach((item, index) => {
+        return category === "all" ||
+               item.category.toLowerCase() === category.toLowerCase();
+
+    });
+
+    if (filteredImages.length === 0) {
+        galleryGrid.innerHTML =
+            '<p class="no-images">No photos available in this category.</p>';
+        return;
+    }
+
+    filteredImages.forEach((item, index) => {
 
         const card = document.createElement("div");
-
         card.className = "gallery-item";
 
         const img = document.createElement("img");
+
         img.src = item.image;
         img.alt = item.title;
         img.loading = "lazy";
 
-        img.onerror = () => {
-            card.style.display = "none";
+        // Do not hide the entire card if an image is missing
+        img.onerror = function() {
+            this.alt = "Image not available";
+            this.style.display = "none";
+            card.classList.add("image-error");
         };
 
         const overlay = document.createElement("div");
@@ -118,12 +131,19 @@ function displayGallery(category = "all") {
         const caption = document.createElement("span");
         caption.textContent = item.category.toUpperCase();
 
-        overlay.append(heading, caption);
-        card.append(img, overlay);
+        overlay.appendChild(heading);
+        overlay.appendChild(caption);
 
-        card.addEventListener("click", () => {
+        card.appendChild(img);
+        card.appendChild(overlay);
+
+        card.addEventListener("click", function() {
+
+            currentImages = filteredImages;
             currentIndex = index;
+
             openLightbox();
+
         });
 
         galleryGrid.appendChild(card);
@@ -133,23 +153,29 @@ function displayGallery(category = "all") {
 }
 
 
+
 // Category Filter
+
 
 filterButtons.forEach(button => {
 
-    button.addEventListener("click", () => {
+    button.addEventListener("click", function() {
 
-        filterButtons.forEach(btn =>
-            btn.classList.remove("active")
-        );
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => {
+            btn.classList.remove("active");
+        });
 
-        button.classList.add("active");
+        // Activate selected button
+        this.classList.add("active");
 
-        displayGallery(button.dataset.filter);
+        // Display selected category
+        displayGallery(this.dataset.filter);
 
     });
 
 });
+
 
 
 // Lightbox Elements
