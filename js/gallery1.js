@@ -6,7 +6,7 @@ const galleryData = [
     {
         title: "Smart Classroom",
         category: "classrooms",
-        image: "asset/images/gallery/classrooms/classroom1.jpg"
+        image: "asset/images/gallery/classrooms/ANANTHULA_SRILATHA.jpg"
     },
 
     {
