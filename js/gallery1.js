@@ -6,73 +6,73 @@ const galleryData = [
     {
         title: "Smart Classroom",
         category: "classrooms",
-        image: "assets/images/gallery/classrooms/classroom1.jpg"
+        image: "asset/images/gallery/classrooms/classroom1.jpg"
     },
 
     {
         title: "Classroom Activities",
         category: "classrooms",
-        image: "assets/images/gallery/classrooms/classroom2.jpg"
+        image: "asset/images/gallery/classrooms/classroom2.jpg"
     },
 
     {
         title: "Computer Laboratory",
         category: "labs",
-        image: "assets/images/gallery/labs/lab1.jpg"
+        image: "asset/images/gallery/labs/lab1.jpg"
     },
 
     {
         title: "Practical Sessions",
         category: "labs",
-        image: "assets/images/gallery/labs/lab2.jpg"
+        image: "asset/images/gallery/labs/lab2.jpg"
     },
 
     {
         title: "Student Activities",
         category: "activities",
-        image: "assets/images/gallery/activities/activity1.jpg"
+        image: "asset/images/gallery/activities/activity1.jpg"
     },
 
     {
         title: "Group Activities",
         category: "activities",
-        image: "assets/images/gallery/activities/activity2.jpg"
+        image: "asset/images/gallery/activities/activity2.jpg"
     },
 
     {
         title: "Sports Activities",
         category: "sports",
-        image: "assets/images/gallery/sports/sports1.jpg"
+        image: "asset/images/gallery/sports/sports1.jpg"
     },
 
     {
         title: "Annual Sports Meet",
         category: "sports",
-        image: "assets/images/gallery/sports/sports2.jpg"
+        image: "asset/images/gallery/sports/sports2.jpg"
     },
 
     {
         title: "Cultural Programme",
         category: "cultural",
-        image: "assets/images/gallery/cultural/cultural1.jpg"
+        image: "asset/images/gallery/cultural/cultural1.jpg"
     },
 
     {
         title: "Campus Infrastructure",
         category: "infrastructure",
-        image: "assets/images/gallery/infrastructure/building1.jpg"
+        image: "asset/images/gallery/infrastructure/building1.jpg"
     },
 
     {
         title: "Teaching Faculty",
         category: "staff",
-        image: "assets/images/gallery/staff/staff1.jpg"
+        image: "asset/images/gallery/staff/staff1.jpg"
     },
 
     {
         title: "School Celebrations",
         category: "events",
-        image: "assets/images/gallery/events/event1.jpg"
+        image: "asset/images/gallery/events/event1.jpg"
     }
 
 ];
